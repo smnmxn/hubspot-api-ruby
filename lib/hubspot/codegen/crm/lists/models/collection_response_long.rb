@@ -37,10 +37,10 @@ module Hubspot
 
         # Attribute type mapping.
         def self.openapi_types
-          {
-            :'paging' => :'Paging',
-            :'results' => :'Array<Integer>'
-          }
+              {
+                :'paging' => :'Paging',
+                :'results' => :'Array<Hash<String, String>>',
+              }
         end
 
         # List of attributes with nullable: true
